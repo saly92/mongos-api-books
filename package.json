@@ -1,0 +1,23 @@
+{
+    "name": "mongos-api-books",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "import": "node cli/importBooks.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "express": "^4.18.1",
+        "mongoose": "^6.4.2"
+        
+    }
+}
