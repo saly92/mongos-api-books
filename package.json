@@ -5,8 +5,8 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "dev": "nodemon server.js",
-        "import": "node cli/importBooks.js"
+        "backend": "nodemon backend/server.js",
+        "import": "node backend/cli/importBooks.js"
     },
     "keywords": [],
     "author": "",
